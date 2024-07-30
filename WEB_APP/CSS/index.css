@@ -89,3 +89,7 @@ html{
         background-color: #BE5822;
     }
 }
+small{
+    font-style: italic;
+    color: white;
+}

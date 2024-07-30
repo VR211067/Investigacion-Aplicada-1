@@ -1,0 +1,91 @@
+/*REGLAS YA DEFINIDAS*/
+
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    min-width: 320px;
+    margin: 1rem auto; 
+    padding: 1rem 20px;
+}
+.hero-body{
+
+    background: linear-gradient(to right bottom,#191B27, #BE5822)
+    
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-family: 'Bauhaus 93';
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para el subtítulo */
+h2 {
+     
+    text-align: center;
+    color: #e9ebfa;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para los párrafos */
+.column.is-12 p {
+    font-family: 'Alasassy Caps';
+    width: 100%;
+    padding: 3%;
+    margin: 1px 2%;
+    background-color:#BE5822;
+    
+    border-radius: 10px;
+    float: left;
+    text-align: justify;
+    color: white;
+}
+
+/* Tabletas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3em; /* Tamaño de letra mediano */
+    }
+    .hero h2 {
+        font-size: 1em; /* Tamaño de letra mediano */
+    }
+    .hero .image img {
+        max-height: 50%; /* Tamaño de imagen mediano */
+    }
+}
+
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+}
+
+
+html{
+    background-color: #000000;
+}
+
+@media (min-width: 768px) {
+    body{
+        background-color: #333647;
+    }
+}
+
+@media (min-width: 992px){
+    body {
+        background-color: #F5973E;
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        background-color: #BE5822;
+    }
+}

@@ -34,12 +34,12 @@ h2 {
 /* Estilos para los párrafos */
 .column.is-12 p {
     font-family: 'Alasassy Caps';
-    width: 100%;
-    padding: 3%;
-    margin: 1px 2%;
+    width: 110%;
+    padding: 5%;
+    margin: 5px 6%;
     background-color:#BE5822;
     
-    border-radius: 10px;
+    border-radius: 5px;
     float: left;
     text-align: justify;
     color: white;
